@@ -1,0 +1,41 @@
+programa {
+  funcao inicio() {
+    escreva("\nCalculadora\n")
+		real num1
+		real num2
+		real result
+		caracter sinal 
+
+		escreva("Digite o sinal da operação:")
+		leia(sinal)
+
+		escreva("Digite o num1:")
+	     leia(num1)
+	     escreva("Digite o num2:")
+	     leia(num2)
+
+          escolha(sinal){
+          caso '+':    
+	     escreva("O resultado é:", num1 + num2)
+	     pare
+
+	     caso '-':
+	     escreva("o resultado é:", num1 - num2)
+	     pare
+
+	     caso '*':
+	     escreva("o resultado é:", num1 * num2)
+	     pare
+
+	     caso'/':
+	     escreva("o resultado é:", num1 / num2)
+	     pare
+
+	     caso contrario:
+	     escreva("Operação Inválida!")
+	     pare
+
+
+          }
+  }
+}
