@@ -15,11 +15,11 @@ programa
 		leia(tentativa)
 		se (tentativa>aleatorio) {
 	     
-	     escreva("Você está quente\n")
+	     escreva("Você está quente!\n")
 			}
 		se(tentativa<aleatorio){
 		
-		escreva("Você está frio\n")
+		escreva("Você está frio!\n")
 		
 			}
 		se (tentativa==aleatorio){
